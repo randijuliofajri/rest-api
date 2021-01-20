@@ -62,7 +62,7 @@ function hasil(i, data) {
 $('#movie-list').on('click', '.see-detail', function () {
     $.LoadingOverlay('show');
     $.ajax({
-        url: 'http://omdbapi.com',
+        url: 'https://omdbapi.com',
         dataType: 'json',
         type: 'get',
         data: {
